@@ -1,0 +1,46 @@
+@import "tailwindcss";
+
+@theme {
+  --font-heading: 'Space Grotesk', sans-serif;
+  --font-body: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+  --font-mono: 'JetBrains Mono', monospace;
+  --color-mp-bg: #111310;
+  --color-mp-panel: #191C17;
+  --color-mp-panel-elevated: #20231D;
+  --color-mp-text: #F1F0E8;
+  --color-mp-secondary: #A2A69A;
+  --color-mp-accent: #D7FF64;
+  --color-mp-error: #FF6B57;
+  --color-mp-pending: #E5B85C;
+  --color-mp-border: #363A30;
+}
+
+body {
+  font-family: var(--font-body);
+  background-color: #111310;
+  color: #F1F0E8;
+}
+
+h1, h2, h3, h4, .font-heading {
+  font-family: var(--font-heading);
+}
+
+code, pre, .font-mono {
+  font-family: var(--font-mono);
+}
+
+/* Custom scrollbar for fintech terminal feel */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #111310;
+}
+::-webkit-scrollbar-thumb {
+  background: #363A30;
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #4a5043;
+}

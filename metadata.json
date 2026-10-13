@@ -1,0 +1,6 @@
+{
+  "name": "MandatePay",
+  "description": "Permission Before Payment — Bounded mandates and deterministic verification for AI agent payments on Monad.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
